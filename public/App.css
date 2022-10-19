@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.musicPage {
+    color: #7b68ee;
+    background-color: #a080ff;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    height: 100vh;
+}
+
+.header, .footer {
+    padding: 4px 40px;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.artist_img {
+    display: block;
+    object-fit: contain;
+}
+
+.button, .header_searchInput, .footer_copyright {
+    font: bold 24px "Monotype Corsiva", Arial, "Times New Roman";
+}
+
+.header_searchInput {
+    font-weight: lighter;
+    width: 300px;
+}
+
+.link {
+    color: #bf7fff;
+    font: bold 20px "Monotype Corsiva", Arial, "Times New Roman";
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.musicList, .trackLink {
+    color: #3f007f;
+}
+
+.musicList {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    width: 90vw;
+    margin-top: 2px;
+    color: #000;
+    font: bold 24px "Monotype Corsiva", Arial, "Times New Roman";
+}
+
+.trackLink {
+    padding: 0px 4px;
+    border-width: 2px;
+    border-color: #202020;
+    border-style: outset;
+}
+
+.footer_navLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.link_lastFM {
+    font: bold 24px "Monotype Corsiva", Arial, "Times New Roman";
+    text-decoration: none;
+    color: #7b68ee;
+}
